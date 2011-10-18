@@ -20,8 +20,8 @@ public class Google2Example {
 
 	public static void main(String[] args) {
 		// Replace these with your own api key and secret
-		String apiKey = "242540628878-e41e4cdgfoa3b2lvm75urp0t9m2i069v.apps.googleusercontent.com";
-		String apiSecret = "E6xdQdQYcuoazs7EOaTqFVu3";
+		String apiKey = "<client_id>";
+		String apiSecret = "<client_secret>";
 		OAuthService service = new ServiceBuilder().provider(Google2Api.class)
 				.apiKey(apiKey).apiSecret(apiSecret)
 				.callback("http://localhost").scope(SCOPE_GOOGLE_CONTACTS)
